@@ -1,3 +1,5 @@
+// main for allocators homework
+
 #include "my_allocator_lib.hpp"
 #include "my_vector_lib.hpp"
 #include <memory>
