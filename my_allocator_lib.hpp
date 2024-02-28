@@ -1,7 +1,7 @@
 // This is an STL wrapper for raw memory allocator
 #pragma once
 #include "raw_pool_lib.hpp"
-
+//
 template <class T, size_t pool_size>
 struct my_allocator
 {
