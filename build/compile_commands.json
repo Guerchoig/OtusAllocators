@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/sasha/source/OtusCC/OtusAllocators/build",
+  "command": "/usr/bin/g++  -I/home/sasha/source/OtusCC/OtusAllocators/build -I/home/sasha/source/OtusCC/OtusAllocators -O3 -DNDEBUG -Wall -Wextra -pedantic -Werror -std=gnu++17 -o CMakeFiles/main_allocator.dir/main_allocator.cpp.o -c /home/sasha/source/OtusCC/OtusAllocators/main_allocator.cpp",
+  "file": "/home/sasha/source/OtusCC/OtusAllocators/main_allocator.cpp"
+}
+]

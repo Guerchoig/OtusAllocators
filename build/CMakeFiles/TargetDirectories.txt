@@ -1,0 +1,9 @@
+/home/sasha/source/OtusCC/OtusAllocators/build/CMakeFiles/main_allocator.dir
+/home/sasha/source/OtusCC/OtusAllocators/build/CMakeFiles/package.dir
+/home/sasha/source/OtusCC/OtusAllocators/build/CMakeFiles/package_source.dir
+/home/sasha/source/OtusCC/OtusAllocators/build/CMakeFiles/edit_cache.dir
+/home/sasha/source/OtusCC/OtusAllocators/build/CMakeFiles/rebuild_cache.dir
+/home/sasha/source/OtusCC/OtusAllocators/build/CMakeFiles/list_install_components.dir
+/home/sasha/source/OtusCC/OtusAllocators/build/CMakeFiles/install.dir
+/home/sasha/source/OtusCC/OtusAllocators/build/CMakeFiles/install/local.dir
+/home/sasha/source/OtusCC/OtusAllocators/build/CMakeFiles/install/strip.dir
