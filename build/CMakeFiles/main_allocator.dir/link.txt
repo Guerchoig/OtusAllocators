@@ -1,1 +1,1 @@
-/usr/bin/g++ -O3 -DNDEBUG CMakeFiles/main_allocator.dir/main_allocator.cpp.o -o main_allocator 
+/usr/bin/g++ -g CMakeFiles/main_allocator.dir/main_allocator.cpp.o -o main_allocator 

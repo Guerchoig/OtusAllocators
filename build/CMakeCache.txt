@@ -21,13 +21,13 @@ CMAKE_ADDR2LINE:FILEPATH=/usr/bin/addr2line
 CMAKE_AR:FILEPATH=/usr/bin/ar
 
 //No help, variable specified on the command line.
-CMAKE_BUILD_TYPE:STRING=Release
+CMAKE_BUILD_TYPE:STRING=Debug
 
 //Enable/Disable color output during build.
 CMAKE_COLOR_MAKEFILE:BOOL=ON
 
-//No help, variable specified on the command line.
-CMAKE_CXX_COMPILER:FILEPATH=/usr/bin/g++
+//CXX compiler
+CMAKE_CXX_COMPILER:STRING=/usr/bin/g++
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
@@ -52,8 +52,8 @@ CMAKE_CXX_FLAGS_RELEASE:STRING=-O3 -DNDEBUG
 //Flags used by the CXX compiler during RELWITHDEBINFO builds.
 CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 
-//No help, variable specified on the command line.
-CMAKE_C_COMPILER:FILEPATH=/usr/bin/gcc
+//C compiler
+CMAKE_C_COMPILER:STRING=/usr/bin/gcc
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
@@ -242,15 +242,6 @@ CPACK_SOURCE_TZ:BOOL=ON
 CPACK_SOURCE_ZIP:BOOL=OFF
 
 //Value Computed by CMake
-allocator_BINARY_DIR:STATIC=/home/sasha/source/OtusCC/OtusAllocators/build
-
-//Value Computed by CMake
-allocator_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-allocator_SOURCE_DIR:STATIC=/home/sasha/source/OtusCC/OtusAllocators
-
-//Value Computed by CMake
 main_allocator_BINARY_DIR:STATIC=/home/sasha/source/OtusCC/OtusAllocators/build
 
 //Value Computed by CMake
@@ -258,36 +249,6 @@ main_allocator_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 main_allocator_SOURCE_DIR:STATIC=/home/sasha/source/OtusCC/OtusAllocators
-
-//Value Computed by CMake
-pallocator_BINARY_DIR:STATIC=/home/sasha/source/OtusCC/OtusAllocators/build
-
-//Value Computed by CMake
-pallocator_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-pallocator_SOURCE_DIR:STATIC=/home/sasha/source/OtusCC/OtusAllocators
-
-//Value Computed by CMake
-pool:UNINITIALIZED=allocator_SOURCE_DIR:STATIC=/home/sasha/source/OtusCC/OtusAllocators
-
-//Value Computed by CMake
-pool_allocator_BINARY_DIR:STATIC=/home/sasha/source/OtusCC/OtusAllocators/build
-
-//Value Computed by CMake
-pool_allocator_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-pool_allocator_SOURCE_DIR:STATIC=/home/sasha/source/OtusCC/OtusAllocators
-
-//Value Computed by CMake
-poolallocator_BINARY_DIR:STATIC=/home/sasha/source/OtusCC/OtusAllocators/build
-
-//Value Computed by CMake
-poolallocator_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-poolallocator_SOURCE_DIR:STATIC=/home/sasha/source/OtusCC/OtusAllocators
 
 
 ########################

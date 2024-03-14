@@ -214,6 +214,8 @@ struct raw_pool
 	// Gives back the memory, allocated at ptr
 	void deallocate(void *ptr)
 	{
+		if (ptr == nullptr)
+			return;
 		if (!in_bounds(ptr))
 			throw std::bad_alloc();
 
