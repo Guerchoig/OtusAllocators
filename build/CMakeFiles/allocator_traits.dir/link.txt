@@ -1,1 +1,0 @@
-/usr/bin/g++ -g CMakeFiles/allocator_traits.dir/allocator_traits.cpp.o -o allocator_traits 

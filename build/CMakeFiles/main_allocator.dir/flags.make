@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/home/sasha/source/OtusCC/OtusAllocators/build -I/home/sasha/source/OtusCC/OtusAllocators
 
-CXX_FLAGS = -O3 -DNDEBUG -Wall -Wextra -pedantic -Werror -std=gnu++17
+CXX_FLAGS = -g -Wall -Wextra -pedantic -Werror -std=gnu++17
 

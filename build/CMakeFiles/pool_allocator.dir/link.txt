@@ -1,1 +1,0 @@
-/usr/bin/g++ -g CMakeFiles/pool_allocator.dir/main_allocator.cpp.o -o pool_allocator 
